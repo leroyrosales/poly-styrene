@@ -2,32 +2,50 @@
 import site from "../data/site.json";
 import SkillItem from './SkillItem.astro';
 const title = `Skills`;
-const proficient = `Skills I'm proficient in`;
-const comfortable = `Skills I'm comfortable with`;
-const mastering = `Skills I'm mastering`;
-const {skills} = site;
+const proficient = `Proficient in`;
+const comfortable = `Comfortable with`;
+const learning = `Learning`;
+const copy = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac felis donec et odio pellentesque diam volutpat. Consectetur purus ut faucibus pulvinar elementum integer enim. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Quis lectus nulla at volutpat diam. Convallis aenean et tortor at risus viverra. ";
+const {skills, likes} = site;
 ---
-<section class="container px-4 py-16">
-    <h2 class="text-3xl pb-8">{title}</h2>
+<section>
     <div class="grid grid-cols-2 lg:grid-cols-3">
-        <div class="skills pb-8">
-        <h3 class="font-bold text-2xl">{proficient}</h3>
+        <article class="card">
+            <h2>{title}</h2>
+            <p>{copy}</p>
+        </article>
+        <article class="card">
+            <h3>{proficient}</h3>
+            <ul>
             {skills.proficient.map((item) => (
                 <SkillItem item={item} />
             ))}
-        </div>
-        <div class="skills pb-8">
-        <h3 class="font-bold text-2xl">{comfortable}</h3>
+            </ul>
+        </article>
+        <article class="card">
+            <h3>{comfortable}</h3>
+            <ul>
             {skills.comfortable.map((item) => (
                 <SkillItem item={item} />
             ))}
-        </div>
-        <div class="skills pb-8">
-        <h3 class="font-bold text-2xl">{mastering}</h3>
-            {skills.mastering.map((item) => (
+            </ul>
+        </article>
+        <article class="card">
+            <h3>{learning}</h3>
+            <ul>
+            {skills.learning.map((item) => (
                 <SkillItem item={item} />
             ))}
-        </div>
+            </ul>
+        </article>
+        <article class="card">
+            <h3>Interests</h3>
+            <ul>
+            {likes.map((item) => (
+                <li>{item}</li>
+            ))}
+            </ul>
+        </article>
     </div>
 </section>
 

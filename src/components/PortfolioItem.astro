@@ -1,12 +1,12 @@
 ---
 const { item } = Astro.props;
 ---
-<article class="boder border-2 border-black p-8 hover:bg-green-300 hover:cursor-pointer">
+<article class="card hover:bg-green-300 hover:cursor-pointer">
     <div class="portfolio-item--text">
         <h2 class="text-3xl pb-4">{item.title}</h2>
         <figure class="pb-4">
             <picture>
-                <img src={item.image} alt=`Screenshot of ${item.title}` />
+                <img class="w-full" src={item.image} alt=`Screenshot of ${item.title}` />
             </picture>
         </figure>
             {item.link &&

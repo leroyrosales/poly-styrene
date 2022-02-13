@@ -3,8 +3,13 @@
 import site from "../data/site.json";
 const { email, resume, socials } = site;
 
+const getSocials = (array, string) => array.filter(item => {
+  return item.title === string;
+})
+const github = getSocials(socials, 'GitHub')[0];
+const linkedin = getSocials(socials, 'LinkedIn')[0];
+
 ---
-<section>
-    {email}
-    {resume}
-</section>
+<article class="card">
+    <p><a href=`mailto:${email}`>Email me</a>, <a href={resume}>view my resume</a>, follow me on <a href={github.link}>GitHub</a>, and connect with me on <a href={linkedin.link}>LinkedIn</a>.</p>
+</article>

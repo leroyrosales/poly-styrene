@@ -1,0 +1,19 @@
+---
+
+import site from "../data/site.json";
+const { email, socials } = site;
+
+---
+<footer class="card bg-black py-12 text-white">
+    <section>
+        <div class="flex flex-col justify-between">
+            <ul>
+                <li>Email: <a href=`mailto:${email}`>{email}</a></li>
+                {socials.map((item) => (
+                    <li>{item.title}: <a href={item.link} target="_blank" rel="noopener noreferrer">{item.link}</a></li>
+                ))}
+            </ul>
+            <p>&copy; {new Date().getFullYear()}</p>
+        </div>
+    </section>
+</footer>

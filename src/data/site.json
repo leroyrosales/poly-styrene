@@ -3,7 +3,7 @@
     "description": "Leroy Rosales - Portfolio, Full stack developer",
     "url": "https://leroyrosales.com/",
     "author": "Leroy Rosales",
-    "resume": "/assets/resume.pdf",
+    "resume": "/assets/Leroy_Rosales_Resume.pdf",
     "intro": "Howdy, I'm a front-end engineer in Austin, Texas. I provide front-end web development, website maintenance, and WordPress development.",
     "email": "leroyrosales@gmail.com",
     "work": [
@@ -250,7 +250,7 @@
             {"name": "CSS3", "icon": "css3"},
             {"name": "SASS", "icon": "sass"},
             {"name": "Bootstrap", "icon": "bootstrap"},
-            {"name": "Tailwind", "icon": "tailwindcss"},
+            {"name": "TailwindCSS", "icon": "tailwindcss"},
             {"name": "Git", "icon": "git"},
             {"name": "GitHub", "icon": "github"},
             {"name": "Twig", "icon": "twig"},
@@ -270,11 +270,14 @@
             {"name": "Webpack", "icon": "webpack"},
             {"name": "Drupal", "icon": "drupal"}
         ],
-        "mastering": [
+        "learning": [
             {"name": "Astro", "icon": "astro"},
             {"name": "Python", "icon": "python"}
         ]
     },
+    "likes": [
+        "Movies", "Music", "Traveling", "Tiki cocktails", "History", "Diversity, Equity, and Inclusion", "Dogs 🐕"
+    ],
     "testimonials": [
         {
             "image": "",
@@ -309,10 +312,6 @@
             "site": "https://eroberts.me/"
         },
         {
-            "name": "Adam Bosco",
-            "site": "https://adambos.co/"
-        },
-        {
             "name": "Tim Bare",
             "site": "https://www.tbare.com/"
         },
@@ -333,22 +332,16 @@
             "site": "https://fontaholic.biz"
         },
         {
+            "name": "Adam Bosco",
+            "site": "https://adambos.co/"
+        },
+        {
             "name": "Christopher Bloom",
             "site": "https://github.com/illepic"
         }
     ],
     "socials":
         [
-            {
-                "link": "",
-                "title": "Codepen",
-                "icon": "codepen"
-            },
-            {
-                "link": "",
-                "title": "Twitter",
-                "icon": "twitter"
-            },
             {
                 "link": "https://www.linkedin.com/in/leroyrosales/",
                 "title": "LinkedIn",

@@ -1,8 +1,8 @@
 ---
 const { item } = Astro.props;
 ---
-<div class="skills-item tooltip-container">
+<li>
     <span class="tooltip">{item.name}</span>
     <i class={`devicon-${item.icon}-${(item.type?item.type:'plain')}`}></i>
-</div>
+</li>
 

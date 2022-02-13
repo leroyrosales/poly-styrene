@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+h1, h2, h3, h4 {
+  @apply font-extrabold pb-4;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+p {
+  @apply text-lg;
+}
+
+a {
+  @apply text-green-700 font-semibold hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75;
+}
+
+ul {
+  @apply list-disc pl-2;
+}
+
+ul li {
+  @apply text-xl pb-2;
+}
+
+.card {
+  @apply p-8 border border-2 border-black;
+}
+
+
 .slogan {
   white-space: nowrap;
   overflow: hidden;
