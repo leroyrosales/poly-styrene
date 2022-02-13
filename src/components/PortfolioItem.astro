@@ -1,15 +1,16 @@
 ---
 const { item } = Astro.props;
 ---
-<div class="boder border-2 border-black p-8">
+<article class="boder border-2 border-black p-8 hover:bg-green-300 hover:cursor-pointer">
     <div class="portfolio-item--text">
-        <div><strong class="text-3xl hover:cursor-pointer">{item.title}</strong>
-        </div>
-        <div class="">
-        <img height="350" width="350" src={item.image} alt={item.title}>
-        {item.link &&
-            <a href={item.link} target="_blank" rel="noopener noreferrer">View Site</a>
-        }
+        <h2 class="text-3xl pb-4">{item.title}</h2>
+        <figure class="pb-4">
+            <picture>
+                <img src={item.image} alt=`Screenshot of ${item.title}` />
+            </picture>
+        </figure>
+            {item.link &&
+                <a class="mt-4 py-2 px-4 bg-green-500 text-black font-semibold shadow-md hover:bg-green-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75" href={item.link} target="_blank" rel="noopener noreferrer">View Site</a>
+            }
     </div>
-    </div>
-</div>
+</article>

@@ -33,18 +33,13 @@
             "title": "J. Celeste Lay",
             "description": "Symfony backend, with Angular front-end service center.",
             "image": "/assets/sites/JCelesteLay-thumb.png",
-            "info": "More info on request"
-        },
-        {
-            "title": "UT News",
-            "description": "Our amazing puppy, who goes on all kinds of cool adventures",
-            "image": "/assets/yaatree.jpg"
+            "link": "https://jcelestelay.com/"
         },
         {
             "title": "Amity Worrel",
             "description": "My Daily Development Tip Blog!",
-            "image": "/assets/daily-dev-tips.jpg",
-            "link": "https://daily-dev-tips.com/"
+            "image": "/assets/sites/amityworrel-thumb.jpg",
+            "link": "https://amityworrel.com/"
         },
         {
             "title": "AVOW Texas",
@@ -56,13 +51,120 @@
             "title": "Innealta Capital",
             "description": "Symfony backend, with Angular front-end service center.",
             "image": "/assets/sites/Innealta-thumb.jpg",
-            "info": "More info on request"
+            "link": "https://www.innealtacapital.com/"
         },
         {
-            "title": "NAOCON",
+            "title": "National Academy of Construction",
             "description": "Symfony backend, with Angular front-end service center.",
             "image": "/assets/sites/NAOCON-thumb.jpg",
-            "info": "More info on request"
+            "link": "https://www.naocon.org/"
+        },
+        {
+            "title": "Sacred Rest Stop",
+            "description": "My beautiful wife Nicole said, Yes!",
+            "image": "",
+            "link": "https://sacredreststop.org/"
+        },
+        {
+            "title": "Neumos",
+            "description": "",
+            "image": "",
+            "link": "https://www.neumos.com/"
+        },
+        {
+            "title": "Taller de Harrington",
+            "description": "",
+            "image": "",
+            "link": "https://tallerdeharrington.art/"
+        },
+        {
+            "title": "NARAL Pro-Choice Texas",
+            "description": "",
+            "image": "",
+            "link": "https://prochoicetexas.org/"
+        },
+        {
+            "title": "AVOW",
+            "description": "",
+            "image": "",
+            "link": "https://avowtexas.org/"
+        },
+        {
+            "title": "Division of Diversity and Community Engagement",
+            "description": "",
+            "image": "",
+            "link": "https://diversity.utexas.edu/"
+        },
+        {
+            "title": "Women & Their Work",
+            "description": "",
+            "image": "",
+            "link": "womenandtheirwork.org"
+        },
+        {
+            "title": "Sara June",
+            "description": "",
+            "image": "",
+            "link": "https://sarajunebk.com/"
+        },
+        {
+            "title": "Austin Books Arts Center",
+            "description": "",
+            "image": "",
+            "link": "https://atxbookarts.org/"
+        },
+        {
+            "title": "Unquiet Things",
+            "description": "",
+            "image": "",
+            "link": "https://unquietthings.com/"
+        },
+        {
+            "title": "Colin McIntyre",
+            "description": "",
+            "image": "",
+            "link": "https://sculptureforge.com/"
+        },
+        {
+            "title": "First-Generation Longhorns",
+            "description": "",
+            "image": "",
+            "link": "https://firstgeneration.utexas.edu/"
+        },
+        {
+            "title": "Office of the Preisdent",
+            "description": "",
+            "image": "",
+            "link": "https://president.utexas.edu/"
+        },
+        {
+            "title": "Every Minute Stronger",
+            "description": "",
+            "image": "",
+            "link": "https://everyminutestronger.com/"
+        },
+        {
+            "title": "Chamberlain McHaney",
+            "description": "",
+            "image": "",
+            "link": "https://www.chamberlainmchaney.com/"
+        },
+        {
+            "title": "MONDOFUZZ",
+            "description": "",
+            "image": "",
+            "link": "https://mondofuzz.com/"
+        },
+        {
+            "title": "Perry Sommers",
+            "description": "",
+            "image": "",
+            "link": "https://perrysommers.net/"
+        },
+        {
+            "title": "UT News",
+            "description": "Our amazing puppy, who goes on all kinds of cool adventures",
+            "image": "/assets/yaatree.jpg"
         }
     ],
     "journey": {
