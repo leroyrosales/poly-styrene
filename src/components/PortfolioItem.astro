@@ -6,7 +6,7 @@ const { item } = Astro.props;
         <h2 class="text-3xl pb-4">{item.title}</h2>
         <figure class="pb-4">
             <picture>
-                <img class="w-full" src={item.image} alt=`Screenshot of ${item.title}` />
+                <img loading="lazy" class="w-full" src={item.image} alt=`Screenshot of ${item.title}` />
             </picture>
         </figure>
             {item.link &&
