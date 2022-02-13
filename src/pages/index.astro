@@ -6,14 +6,9 @@ import Outro from '../components/Outro.astro';
 import Footer from "../components/Footer.astro";
 
 import site from "../data/site.json";
-const { author, title, description, intro } = site;
+const { author, title, description, intro, likes } = site;
 
-const likes = [
-	"tiki drinks",
-	"dogs",
-	"punk",
-]
-const randomLike = likes[Math.floor(Math.random()*likes.length)];
+const randomLike = likes[Math.floor(Math.random()*likes.length)].toLowerCase();
 const slogan = `I'm just a nerd that likes ${randomLike}.`;
 
 ---
