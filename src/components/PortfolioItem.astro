@@ -1,0 +1,15 @@
+---
+const { item } = Astro.props;
+---
+<div class="boder border-2 border-black p-8">
+    <div class="portfolio-item--text">
+        <div><strong class="text-3xl hover:cursor-pointer">{item.title}</strong>
+        </div>
+        <div class="">
+        <img height="350" width="350" src={item.image} alt={item.title}>
+        {item.link &&
+            <a href={item.link} target="_blank" rel="noopener noreferrer">View Site</a>
+        }
+    </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+---
+import Portfolio from "../components/Portfolio.astro";
+
+import site from "../data/site.json";
+const { author, title, description } = site;
+const slogan = "I'm just a nerd that likes punk.";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<title>{ title } - { description }</title>
+		<style global>
+			@import "../styles/global.css";
+		</style>
+	</head>
+
+	<body>
+		<div class="grid grid-cols-3 gap-4">
+			<div>
+				<h1 class="text-5xl font-extrabold">👨🏾‍💻 {author}</h1>
+				<p>{slogan}</p>
+			</div>
+			<div class="col-span-2">
+				<Portfolio/>
+			</div>
+		</div>
+	</body>
+</html>

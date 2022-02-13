@@ -1,0 +1,13 @@
+---
+import PortfolioItem from "./PortfolioItem.astro";
+
+import site from "../data/site.json";
+const { work } = site;
+
+---
+<section class="grid grid-cols-3">
+    {work.map((item) => (
+        <PortfolioItem item={item} />
+    ))}
+</section>
+
