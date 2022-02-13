@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slogan {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 1);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

@@ -5,29 +5,7 @@
     "author": "Leroy Rosales",
     "profile_pic": "/assets/leroy.jpg",
     "resume": "/assets/resume.pdf",
-    "skills": {
-        "comfortable": [
-            {"name": "HTML5", "icon": "html5"},
-            {"name": "CSS3", "icon": "css3"},
-            {"name": "JavaScript", "icon": "javascript"},
-            {"name": "TypeScript", "icon": "typescript"},
-            {"name": "PHP", "icon": "php"},
-            {"name": "Laravel", "icon": "laravel"},
-            {"name": "Angular", "icon": "angularjs"},
-            {"name": "Ionic", "icon": "ionic", "type": "original"},
-            {"name": "Node.js", "icon": "nodejs"},
-            {"name": "Git", "icon": "git"},
-            {"name": "MySQL", "icon": "mysql"},
-            {"name": "SASS", "icon": "sass"},
-            {"name": "Bootstrap", "icon": "bootstrap"},
-            {"name": "Tailwind", "icon": "tailwindcss"}
-        ],
-        "mastering": [
-            {"name": "Flutter", "icon": "flutter"},
-            {"name": "React", "icon": "react"},
-            {"name": "Next.js", "icon": "nextjs"}
-        ]
-    },
+    "intro": "Howdy, I'm a front-end engineer in Austin, Texas. I focus on providing front-end web development, website maintenance, and WordPress development.",
     "work": [
         {
             "title": "J. Celeste Lay",
@@ -162,11 +140,131 @@
             "link": "https://perrysommers.net/"
         },
         {
+            "title": "Ardor Wood Farm",
+            "description": "",
+            "image": "",
+            "link": "https://ardorwoodfarm.com/"
+        },
+        {
+            "title": "Asociación Internacional de Hispanistas",
+            "description": "",
+            "image": "",
+            "link": "asociacioninternacionaldehispanistas.org"
+        },
+        {
+            "title": "43QUAI",
+            "description": "",
+            "image": "",
+            "link": "https://43quai.com/"
+        },
+        {
+            "title": "Blue Rock Repair",
+            "description": "",
+            "image": "",
+            "link": "https://bluerockrepair.com/"
+        },
+        {
+            "title": "Rachel and Tad",
+            "description": "",
+            "image": "",
+            "link": "https://rachelandtad.netlify.app/"
+        },
+        {
+            "title": "Communication Awards UT Austin",
+            "description": "",
+            "image": "",
+            "link": "https://5f43d10364e2fc0007cd8868--ut-communication-awards.netlify.app/submissions-list/"
+        },
+        {
+            "title": "UT Tower",
+            "description": "",
+            "image": "",
+            "link": "https://tower.utexas.edu/"
+        },
+        {
+            "title": "In The Garden Farm",
+            "description": "",
+            "image": "",
+            "link": "https://inthegardenfarm.org/"
+        },
+        {
+            "title": "Need Abortion",
+            "description": "",
+            "image": "",
+            "link": "https://needabortion.org/"
+        },
+        {
+            "title": "Repro Power",
+            "description": "",
+            "image": "",
+            "link": "repropowertx.org"
+        },
+        {
+            "title": "Rosie's Law",
+            "description": "",
+            "image": "",
+            "link": "https://rosieslaw.org/"
+        },
+        {
+            "title": "Nova Hair Collective",
+            "description": "",
+            "image": "",
+            "link": "https://www.novahaircollective.com/"
+        },
+        {
+            "title": "TEXAS Impact",
+            "description": "",
+            "image": "",
+            "link": "https://impact.utexas.edu/"
+        },
+        {
+            "title": "R Builders LLC",
+            "description": "",
+            "image": "",
+            "link": "https://rbuildersllc.com/"
+        },
+        {
+            "title": "Asher Blair Communications",
+            "description": "",
+            "image": "",
+            "link": "https://asher-blair.com/"
+        },
+        {
+            "title": "East: Sun Rise AR",
+            "description": "",
+            "image": "",
+            "link": "https://eastside-ar.netlify.app/"
+        },
+        {
             "title": "UT News",
             "description": "Our amazing puppy, who goes on all kinds of cool adventures",
-            "image": "/assets/yaatree.jpg"
+            "image": "/assets/yaatree.jpg",
+            "link": "https://news.utexas.edu/"
         }
     ],
+    "skills": {
+        "comfortable": [
+            {"name": "HTML5", "icon": "html5"},
+            {"name": "CSS3", "icon": "css3"},
+            {"name": "JavaScript", "icon": "javascript"},
+            {"name": "TypeScript", "icon": "typescript"},
+            {"name": "PHP", "icon": "php"},
+            {"name": "Laravel", "icon": "laravel"},
+            {"name": "Angular", "icon": "angularjs"},
+            {"name": "Ionic", "icon": "ionic", "type": "original"},
+            {"name": "Node.js", "icon": "nodejs"},
+            {"name": "Git", "icon": "git"},
+            {"name": "MySQL", "icon": "mysql"},
+            {"name": "SASS", "icon": "sass"},
+            {"name": "Bootstrap", "icon": "bootstrap"},
+            {"name": "Tailwind", "icon": "tailwindcss"}
+        ],
+        "mastering": [
+            {"name": "Flutter", "icon": "flutter"},
+            {"name": "React", "icon": "react"},
+            {"name": "Next.js", "icon": "nextjs"}
+        ]
+    },
     "journey": {
         "2030": [
             {
