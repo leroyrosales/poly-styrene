@@ -285,8 +285,56 @@
     ],
     "people": [
         {
+            "name": "Charles Leverington",
+            "site": "https://github.com/cleverington"
+        },
+        {
             "name": "Recspec",
             "site": "https://recspec.co/"
+        },
+        {
+            "name": "Fire Hazard",
+            "site": "https://firehazard.co/"
+        },
+        {
+            "name": "Chris Weigman",
+            "site": "https://chriswiegman.com/"
+        },
+        {
+            "name": "Alex Carvalho",
+            "site": "https://jacarvalho.com/"
+        },
+        {
+            "name": "Ethan Roberts",
+            "site": "https://eroberts.me/"
+        },
+        {
+            "name": "Adam Bosco",
+            "site": "https://adambos.co/"
+        },
+        {
+            "name": "Tim Bare",
+            "site": "https://www.tbare.com/"
+        },
+        {
+            "name": "Christian Gelici",
+            "site": "https://wpinfusion.com/"
+        },
+        {
+            "name": "Michael Flores",
+            "site": "https://michaelprflores.com"
+        },
+        {
+            "name": "Henry Tijernia III",
+            "site": "https://httres.com/"
+        },
+        {
+            "name": "fontaholic designs",
+            "site": "https://fontaholic.biz"
+        },
+        {
+            "name": "Christopher Bloom",
+            "site": "https://github.com/illepic"
         }
     ],
     "socials":
