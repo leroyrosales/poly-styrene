@@ -35,7 +35,7 @@ ul li {
 }
 
 .card {
-  @apply p-8 border border-2 border-black;
+  @apply p-12 border border-2 border-black;
 }
 
 

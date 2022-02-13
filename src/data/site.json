@@ -22,7 +22,7 @@
         {
             "title": "AVOW Texas",
             "description": "Completely build in CSS",
-            "image": "/assets/totoro.jpg",
+            "image": "",
             "link": "https://codepen.io/rebelleroy/full/rNOWbbK"
         },
         {
@@ -238,7 +238,7 @@
         {
             "title": "UT News",
             "description": "Our amazing puppy, who goes on all kinds of cool adventures",
-            "image": "/assets/yaatree.jpg",
+            "image": "",
             "link": "https://news.utexas.edu/"
         }
     ],
