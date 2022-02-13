@@ -1,6 +1,12 @@
 ---
+
 import site from "../data/site.json";
+const { people } = site;
+
 ---
 <section>
     <h2>People I like</h2>
+    {people.map((item) => (
+        <li><a class="text-green-700 font-semibold shadow-md hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75" href={item.site} target="_blank" rel="noopener noreferrer">{item.name}</a></li>
+    ))}
 </section>

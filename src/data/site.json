@@ -4,7 +4,8 @@
     "url": "https://leroyrosales.com/",
     "author": "Leroy Rosales",
     "resume": "/assets/resume.pdf",
-    "intro": "Howdy, I'm a front-end engineer in Austin, Texas. I focus on providing front-end web development, website maintenance, and WordPress development.",
+    "intro": "Howdy, I'm a front-end engineer in Austin, Texas. I provide front-end web development, website maintenance, and WordPress development.",
+    "email": "leroyrosales@gmail.com",
     "work": [
         {
             "title": "J. Celeste Lay",
@@ -242,106 +243,36 @@
         }
     ],
     "skills": {
-        "comfortable": [
-            {"name": "HTML5", "icon": "html5"},
-            {"name": "CSS3", "icon": "css3"},
+        "proficient": [
+            {"name": "WordPress", "icon": "wordpress"},
             {"name": "JavaScript", "icon": "javascript"},
-            {"name": "TypeScript", "icon": "typescript"},
             {"name": "PHP", "icon": "php"},
-            {"name": "Laravel", "icon": "laravel"},
-            {"name": "Angular", "icon": "angularjs"},
-            {"name": "Ionic", "icon": "ionic", "type": "original"},
-            {"name": "Node.js", "icon": "nodejs"},
-            {"name": "Git", "icon": "git"},
-            {"name": "MySQL", "icon": "mysql"},
+            {"name": "CSS3", "icon": "css3"},
             {"name": "SASS", "icon": "sass"},
             {"name": "Bootstrap", "icon": "bootstrap"},
-            {"name": "Tailwind", "icon": "tailwindcss"}
+            {"name": "Tailwind", "icon": "tailwindcss"},
+            {"name": "Git", "icon": "git"},
+            {"name": "GitHub", "icon": "github"},
+            {"name": "Twig", "icon": "twig"},
+            {"name": "Twig for WordPress", "icon": "twig"},
+            {"name": "Jekyll", "icon": "jekyll"},
+            {"name": "HTML5", "icon": "html5"},
+            {"name": "Gulp", "icon": "gulp"},
+            {"name": "Accessibility", "icon": "accessibility"}
+        ],
+        "comfortable": [
+            {"name": "React", "icon": "react"},
+            {"name": "Next.js", "icon": "nextjs"},
+            {"name": "Eleventy", "icon": "eleventy"},
+            {"name": "PHP", "icon": "php"},
+            {"name": "Node.js", "icon": "nodejs"},
+            {"name": "MySQL", "icon": "mysql"},
+            {"name": "Webpack", "icon": "webpack"},
+            {"name": "Drupal", "icon": "drupal"}
         ],
         "mastering": [
-            {"name": "Flutter", "icon": "flutter"},
-            {"name": "React", "icon": "react"},
-            {"name": "Next.js", "icon": "nextjs"}
-        ]
-    },
-    "journey": {
-        "2030": [
-            {
-                "title": "Senior full stack remote developer ☁️",
-                "description": "It's my dream to be a senior full-stack developer who can work remotely."
-            }
-        ],
-        "2021": [
-            {
-                "title": "Got married 🍾",
-                "description": "We got married in the mountains of South Africa"
-            },
-            {
-                "title": "Blogged for a year non-stop",
-                "description": "Every single day one article!"
-            }
-        ],
-        "2020": [
-            {
-                "title": "Got engaged 💍",
-                "description": "My beautiful wife Nicole said, Yes!"
-            },
-            {
-                "title": "Started daily-dev-tips 🚀",
-                "description": "I started my blog, where I write daily development tips to help new people!"
-            },
-            {
-                "title": "Moved back to South Africa ✈️",
-                "description": "This time for Laméco I moved back to South-Africa and fell in love with the country again."
-            }
-        ],
-        "2016": [
-            {
-                "title": "Senior developer 💪🏻",
-                "description": "I started as a senior developer at Laméco, working mainly on Symfony, Angular, and node.js projects. I also was responsible for mentoring students and new employees."
-            }
-        ],
-        "2015": [
-            {
-                "title": "Full-time app developer 📱",
-                "description": "I got hired by Bengees, a mobile app startup, to be the lead developer on an Ionic app!"
-            }
-        ],
-        "2014": [
-            {
-                "title": "First time to South-Africa 🇿🇦",
-                "description": "A nice perk of Engagement Factory was a work trip to South Africa, little did I know I would fall in love with the country."
-            },
-            {
-                "title": "Medior developer at engagement factory 🤓",
-                "description": "My hard work paid off, and I became a Medior Developer at Engagement Factory, picked up a lot of JavaScript, PHP and Marketing skills."
-            }
-        ],
-        "2013": [
-            {
-                "title": "Started my own company 🤯",
-                "description": "The moment I Graduated I also started my own company, which I still have on the side."
-            },
-            {
-                "title": "Graduated at Fontys 🎓",
-                "description": "Graduated the communication and multi-media Design course at Fontys Eindhoven."
-            }
-        ],
-        "2012": [
-            {
-                "title": "Won the Atos IT challenge 🏆",
-                "description": "In 2012 we entered the ATOS IT challenge, our team \"MultiLens\" finished first in this worldwide competition. My role in this project was project managing, development en thinking on features, and the global idea."
-            },
-            {
-                "title": "First tech job 🥳",
-                "description": "Started working as a PHP Developer for ScriptMotion, programming in CodeIgniter."
-            }
-        ],
-        "1989": [
-            {
-                "title": "I was born 👶",
-                "description": "This is where the whole journey started."
-            }
+            {"name": "Astro", "icon": "astro"},
+            {"name": "Python", "icon": "python"}
         ]
     },
     "testimonials": [
@@ -350,6 +281,12 @@
             "name": "",
             "title": "",
             "quote": ""
+        }
+    ],
+    "people": [
+        {
+            "name": "Recspec",
+            "site": "https://recspec.co/"
         }
     ],
     "socials":

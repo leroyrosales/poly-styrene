@@ -1,28 +1,33 @@
 ---
 import site from "../data/site.json";
 import SkillItem from './SkillItem.astro';
-const title = `These are skills I've mastered over the years`;
-const comfortable = `Skills I'm super comfortable with`;
+const title = `Skills`;
+const proficient = `Skills I'm proficient in`;
+const comfortable = `Skills I'm comfortable with`;
 const mastering = `Skills I'm mastering`;
 const {skills} = site;
 ---
-<section id="skills">
-    <h2>{title}</h2>
-
-    <strong>{comfortable}</strong>
-    <br />
-    <div class="skills">
-        {skills.comfortable.map((item) => (
-            <SkillItem item={item} />
-        ))}
-    </div>
-
-    <strong>{mastering}</strong>
-    <br />
-    <div class="skills">
-        {skills.mastering.map((item) => (
-            <SkillItem item={item} />
-        ))}
+<section class="container px-4 py-16">
+    <h2 class="text-3xl pb-8">{title}</h2>
+    <div class="grid grid-cols-2 lg:grid-cols-3">
+        <div class="skills pb-8">
+        <h3 class="font-bold text-2xl">{proficient}</h3>
+            {skills.proficient.map((item) => (
+                <SkillItem item={item} />
+            ))}
+        </div>
+        <div class="skills pb-8">
+        <h3 class="font-bold text-2xl">{comfortable}</h3>
+            {skills.comfortable.map((item) => (
+                <SkillItem item={item} />
+            ))}
+        </div>
+        <div class="skills pb-8">
+        <h3 class="font-bold text-2xl">{mastering}</h3>
+            {skills.mastering.map((item) => (
+                <SkillItem item={item} />
+            ))}
+        </div>
     </div>
 </section>
 
