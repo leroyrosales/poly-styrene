@@ -3,7 +3,6 @@
     "description": "Leroy Rosales - Portfolio, Full stack developer",
     "url": "https://leroyrosales.com/",
     "author": "Leroy Rosales",
-    "profile_pic": "/assets/leroy.jpg",
     "resume": "/assets/resume.pdf",
     "intro": "Howdy, I'm a front-end engineer in Austin, Texas. I focus on providing front-end web development, website maintenance, and WordPress development.",
     "work": [
@@ -347,33 +346,21 @@
     },
     "testimonials": [
         {
-            "image": "/assets/nicole.jpg",
-            "name": "Nicole Bongers",
-            "title": "~ Wife",
-            "quote": "leroy is an amazing husband and dog father!"
-        },
-        {
-            "image": "/assets/guus.jpg",
-            "name": "Guus Meuwissen",
-            "title": "~ Colleague",
-            "quote": "'Ridiculously fast' is the phrase that comes to mind when I think about leroy. I had the please of working with leroy for around 2 years at Engagement Factory, while collaborating on several project teams. leroy's ability to juggle multiple projects while always committing to the highest quality is truly exceptional. Hence the reason I would say leroy is one of the most dedicated professionals I've worked with and he's always willing to go the extra mile to help you when needed. Thanks leroy! "
-        },
-        {
-            "image": "/assets/amer.jpg",
-            "name": "Amer Jaganjac",
-            "title": "~ Mentee",
-            "quote": "leroy is a very intuitive and skilled mentor. I had enjoyed learning from him. leroy made efforts in pointing out fields for development in my professional performance, and advising me on how to become a better IT professional. Thank you leroy!"
+            "image": "",
+            "name": "",
+            "title": "",
+            "quote": ""
         }
     ],
     "socials":
         [
             {
-                "link": "https://codepen.io/rebelleroy",
+                "link": "",
                 "title": "Codepen",
                 "icon": "codepen"
             },
             {
-                "link": "https://twitter.com/DailyDevTips1",
+                "link": "",
                 "title": "Twitter",
                 "icon": "twitter"
             },
@@ -383,12 +370,7 @@
                 "icon": "linkedin"
             },
             {
-                "link": "https://www.facebook.com/leroy.bongers.92",
-                "title": "Facebook",
-                "icon": "facebook"
-            },
-            {
-                "link": "https://github.com/rebelleroy",
+                "link": "https://github.com/leroyrosales",
                 "title": "GitHub",
                 "icon": "github"
             }
