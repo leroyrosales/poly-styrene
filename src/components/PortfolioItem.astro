@@ -3,7 +3,7 @@ const { item } = Astro.props;
 ---
 <article class="card hover:bg-green-300 hover:cursor-pointer">
     <div class="portfolio-item--text">
-        <h2 class="text-3xl pb-4">{item.title}</h2>
+        <h2>{item.title}</h2>
         <figure class="pb-4">
             <picture>
                 <img width="600" height="450" loading="lazy" class="w-full" src={item.jpg} alt=`Screenshot of ${item.title}` />
