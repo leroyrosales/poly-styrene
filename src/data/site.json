@@ -10,235 +10,274 @@
         {
             "title": "J. Celeste Lay",
             "description": "Symfony backend, with Angular front-end service center.",
-            "image": "/assets/sites/celeste-thumb.webp",
+            "webp": "/assets/sites/celeste-thumb.webp",
+            "jpg": "/assets/sites/celeste-thumb.jpg",
             "link": "https://jcelestelay.com/"
         },
         {
             "title": "Amity Worrel",
             "description": "My Daily Development Tip Blog!",
-            "image": "/assets/sites/amityworrel-thumb.webp",
+            "webp": "/assets/sites/amityworrel-thumb.webp",
+            "jpg": "/assets/sites/amityworrel-thumb.jpg",
             "link": "https://amityworrel.com/"
         },
         {
             "title": "AVOW Texas",
             "description": "Completely build in CSS",
-            "image": "/assets/sites/avow-thumb.webp",
+            "webp": "/assets/sites/avow-thumb.webp",
+            "jpg": "/assets/sites/avow-thumb.jpg",
             "link": "https://codepen.io/rebelleroy/full/rNOWbbK"
         },
         {
             "title": "Innealta Capital",
             "description": "Symfony backend, with Angular front-end service center.",
-            "image": "/assets/sites/innealtacapital-thumb.webp",
+            "webp": "/assets/sites/innealtacapital-thumb.webp",
+            "jpg": "/assets/sites/innealtacapital-thumb.jpg",
             "link": "https://www.innealtacapital.com/"
         },
         {
             "title": "National Academy of Construction",
             "description": "Symfony backend, with Angular front-end service center.",
-            "image": "/assets/sites/naocon-thumb.webp",
+            "webp": "/assets/sites/naocon-thumb.webp",
+            "jpg": "/assets/sites/naocon-thumb.jpg",
             "link": "https://www.naocon.org/"
         },
         {
             "title": "Sacred Rest Stop",
             "description": "My beautiful wife Nicole said, Yes!",
-            "image": "/assets/sites/sacredrest-thumb.webp",
+            "webp": "/assets/sites/sacredrest-thumb.webp",
+            "jpg": "/assets/sites/sacredrest-thumb.jpg",
             "link": "https://sacredreststop.org/"
         },
         {
             "title": "Neumos",
             "description": "",
-            "image": "/assets/sites/neumos-thumb.webp",
+            "webp": "/assets/sites/neumos-thumb.webp",
+            "jpg": "/assets/sites/neumos-thumb.jpg",
             "link": "https://www.neumos.com/"
         },
         {
             "title": "Taller de Harrington",
             "description": "",
-            "image": "/assets/sites/tallerharrington-thumb.webp",
+            "webp": "/assets/sites/tallerharrington-thumb.webp",
+            "jpg": "/assets/sites/tallerharrington-thumb.jpg",
             "link": "https://tallerdeharrington.art/"
         },
         {
             "title": "NARAL Pro-Choice Texas",
             "description": "",
-            "image": "/assets/sites/naraltx-thumb.webp",
+            "webp": "/assets/sites/naraltx-thumb.webp",
+            "jpg": "/assets/sites/naraltx-thumb.jpg",
             "link": "https://prochoicetexas.org/"
         },
         {
             "title": "AVOW",
             "description": "",
-            "image": "/assets/sites/avow-thumb.webp",
+            "webp": "/assets/sites/avow-thumb.webp",
+            "jpg": "/assets/sites/avow-thumb.jpg",
             "link": "https://avowtexas.org/"
         },
         {
             "title": "Division of Diversity and Community Engagement",
             "description": "",
-            "image": "/assets/sites/ddce-thumb.webp",
+            "webp": "/assets/sites/ddce-thumb.webp",
+            "jpg": "/assets/sites/ddce-thumb.jpg",
             "link": "https://diversity.utexas.edu/"
         },
         {
             "title": "Women & Their Work",
             "description": "",
-            "image": "/assets/sites/womenwork-thumb.webp",
+            "webp": "/assets/sites/womenwork-thumb.webp",
+            "jpg": "/assets/sites/womenwork-thumb.jpg",
             "link": "womenandtheirwork.org"
         },
         {
             "title": "Sara June",
             "description": "",
-            "image": "/assets/sites/sarajune-thumb.webp",
+            "webp": "/assets/sites/sarajune-thumb.webp",
+            "jpg": "/assets/sites/sarajune-thumb.jpg",
             "link": "https://sarajunebk.com/"
         },
         {
             "title": "Austin Books Arts Center",
             "description": "",
-            "image": "/assets/sites/atxbookarts-thumb.webp",
+            "webp": "/assets/sites/atxbookarts-thumb.webp",
+            "jpg": "/assets/sites/atxbookarts-thumb.jpg",
             "link": "https://atxbookarts.org/"
         },
         {
             "title": "Unquiet Things",
             "description": "",
-            "image": "/assets/sites/unquietthings-thumb.webp",
+            "webp": "/assets/sites/unquietthings-thumb.webp",
+            "jpg": "/assets/sites/unquietthings-thumb.jpg",
             "link": "https://unquietthings.com/"
         },
         {
             "title": "Colin McIntyre",
             "description": "",
-            "image": "/assets/sites/colinmcintyre-thumb.webp",
+            "webp": "/assets/sites/colinmcintyre-thumb.webp",
+            "jpg": "/assets/sites/colinmcintyre-thumb.jpg",
             "link": "https://sculptureforge.com/"
         },
         {
             "title": "First-Generation Longhorns",
             "description": "",
-            "image": "/assets/sites/firstgenlonghorns-thumb.webp",
+            "webp": "/assets/sites/firstgenlonghorns-thumb.webp",
+            "jpg": "/assets/sites/firstgenlonghorns-thumb.jpg",
             "link": "https://firstgeneration.utexas.edu/"
         },
         {
             "title": "Office of the Preisdent",
             "description": "",
-            "image": "/assets/sites/ootpresident-thumb.webp",
+            "webp": "/assets/sites/ootpresident-thumb.webp",
+            "jpg": "/assets/sites/ootpresident-thumb.jpg",
             "link": "https://president.utexas.edu/"
         },
         {
             "title": "Every Minute Stronger",
             "description": "",
-            "image": "/assets/sites/everyminute-thumb.webp",
+            "webp": "/assets/sites/everyminute-thumb.webp",
+            "jpg": "/assets/sites/everyminute-thumb.jpg",
             "link": "https://everyminutestronger.com/"
         },
         {
             "title": "Chamberlain McHaney",
             "description": "",
-            "image": "/assets/sites/chamberlainmchaney-thumb.webp",
+            "webp": "/assets/sites/chamberlainmchaney-thumb.webp",
+            "jpg": "/assets/sites/chamberlainmchaney-thumb.jpg",
             "link": "https://www.chamberlainmchaney.com/"
         },
         {
             "title": "MONDOFUZZ",
             "description": "",
-            "image": "/assets/sites/mondofuzz-thumb.webp",
+            "webp": "/assets/sites/mondofuzz-thumb.webp",
+            "jpg": "/assets/sites/mondofuzz-thumb.jpg",
             "link": "https://mondofuzz.com/"
         },
         {
             "title": "Perry Sommers",
             "description": "",
-            "image": "/assets/sites/perrysommers-thumb.webp",
+            "webp": "/assets/sites/perrysommers-thumb.webp",
+            "jpg": "/assets/sites/perrysommers-thumb.jpg",
             "link": "https://perrysommers.net/"
         },
         {
             "title": "Ardor Wood Farm",
             "description": "",
-            "image": "/assets/sites/ardorfarm-thumb.webp",
+            "webp": "/assets/sites/ardorfarm-thumb.webp",
+            "jpg": "/assets/sites/ardorfarm-thumb.jpg",
             "link": "https://ardorwoodfarm.com/"
         },
         {
             "title": "Asociación Internacional de Hispanistas",
             "description": "",
-            "image": "/assets/sites/aidh-thumb.webp",
+            "webp": "/assets/sites/aidh-thumb.webp",
+            "jpg": "/assets/sites/aidh-thumb.jpg",
             "link": "asociacioninternacionaldehispanistas.org"
         },
         {
             "title": "43QUAI",
             "description": "",
-            "image": "/assets/sites/43quai-thumb.webp",
+            "webp": "/assets/sites/43quai-thumb.webp",
+            "jpg": "/assets/sites/43quai-thumb.jpg",
             "link": "https://43quai.com/"
         },
         {
             "title": "Blue Rock Repair",
             "description": "",
-            "image": "/assets/sites/bluerockrepair-thumb.webp",
+            "webp": "/assets/sites/bluerockrepair-thumb.webp",
+            "jpg": "/assets/sites/bluerockrepair-thumb.jpg",
             "link": "https://bluerockrepair.com/"
         },
         {
             "title": "Rachel and Tad",
             "description": "",
-            "image": "/assets/sites/racheltad-thumb.webp",
+            "webp": "/assets/sites/racheltad-thumb.webp",
+            "jpg": "/assets/sites/racheltad-thumb.jpg",
             "link": "https://rachelandtad.netlify.app/"
         },
         {
             "title": "Communication Awards UT Austin",
             "description": "",
-            "image": "/assets/sites/commawards-thumb.webp",
+            "webp": "/assets/sites/commawards-thumb.webp",
+            "jpg": "/assets/sites/commawards-thumb.jpg",
             "link": "https://5f43d10364e2fc0007cd8868--ut-communication-awards.netlify.app/submissions-list/"
         },
         {
             "title": "UT Tower",
             "description": "",
-            "image": "/assets/sites/uttower-thumb.webp",
+            "webp": "/assets/sites/uttower-thumb.webp",
+            "jpg": "/assets/sites/uttower-thumb.jpg",
             "link": "https://tower.utexas.edu/"
         },
         {
             "title": "In The Garden Farm",
             "description": "",
-            "image": "/assets/sites/inthegarden-thumb.webp",
+            "webp": "/assets/sites/inthegarden-thumb.webp",
+            "jpg": "/assets/sites/inthegarden-thumb.jpg",
             "link": "https://inthegardenfarm.org/"
         },
         {
             "title": "Need Abortion",
             "description": "",
-            "image": "/assets/sites/needabortion-thumb.webp",
+            "webp": "/assets/sites/needabortion-thumb.webp",
+            "jpg": "/assets/sites/needabortion-thumb.jpg",
             "link": "https://needabortion.org/"
         },
         {
             "title": "Repro Power",
             "description": "",
-            "image": "/assets/sites/repropower-thumb.webp",
+            "webp": "/assets/sites/repropower-thumb.webp",
+            "jpg": "/assets/sites/repropower-thumb.jpg",
             "link": "repropowertx.org"
         },
         {
             "title": "Rosie's Law",
             "description": "",
-            "image": "/assets/sites/rosieslaw-thumb.webp",
+            "webp": "/assets/sites/rosieslaw-thumb.webp",
+            "jpg": "/assets/sites/rosieslaw-thumb.jpg",
             "link": "https://rosieslaw.org/"
         },
         {
             "title": "Nova Hair Collective",
             "description": "",
-            "image": "/assets/sites/novahair-thumb.webp",
+            "webp": "/assets/sites/novahair-thumb.webp",
+            "jpg": "/assets/sites/novahair-thumb.jpg",
             "link": "https://www.novahaircollective.com/"
         },
         {
             "title": "TEXAS Impact",
             "description": "",
-            "image": "/assets/sites/tximpact-thumb.webp",
+            "webp": "/assets/sites/tximpact-thumb.webp",
+            "jpg": "/assets/sites/tximpact-thumb.jpg",
             "link": "https://impact.utexas.edu/"
         },
         {
             "title": "R Builders LLC",
             "description": "",
-            "image": "/assets/sites/rbuildersllc-thumb.webp",
+            "webp": "/assets/sites/rbuildersllc-thumb.webp",
+            "jpg": "/assets/sites/rbuildersllc-thumb.jpg",
             "link": "https://rbuildersllc.com/"
         },
         {
             "title": "Asher Blair Communications",
             "description": "",
-            "image": "/assets/sites/asherblaircomm-thumb.webp",
+            "webp": "/assets/sites/asherblaircomm-thumb.webp",
+            "jpg": "/assets/sites/asherblaircomm-thumb.jpg",
             "link": "https://asher-blair.com/"
         },
         {
             "title": "East: Sun Rise AR",
             "description": "",
-            "image": "/assets/sites/eastsunrise-thumb.webp",
+            "webp": "/assets/sites/eastsunrise-thumb.webp",
+            "jpg": "/assets/sites/eastsunrise-thumb.jpg",
             "link": "https://eastside-ar.netlify.app/"
         },
         {
             "title": "UT News",
-            "description": "Our amazing puppy, who goes on all kinds of cool adventures",
-            "image": "/assets/sites/utnews-thumb.webp",
+            "description": "",
+            "webp": "/assets/sites/utnews-thumb.webp",
+            "jpg": "/assets/sites/utnews-thumb.jpg",
             "link": "https://news.utexas.edu/"
         }
     ],
@@ -280,7 +319,7 @@
     ],
     "testimonials": [
         {
-            "image": "/assets/sites/43quai-thumb.webp",
+            "webp": "/assets/sites/43quai-thumb.webp",
             "name": "",
             "title": "",
             "quote": ""
