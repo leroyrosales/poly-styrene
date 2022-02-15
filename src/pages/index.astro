@@ -4,6 +4,7 @@ import Skills from '../components/Skills.astro';
 import People from '../components/People.astro';
 import Outro from '../components/Outro.astro';
 import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
 
 import site from "../data/site.json";
 const { author, title, description, intro, likes } = site;
@@ -25,19 +26,33 @@ const slogan = `I'm just a nerd that likes ${randomLike}.`;
 	</head>
 
 	<body>
+		<Navbar/>
+		<section class="py-24 px-12 border-2 border-black">
+			<h1>👨🏾‍💻 {author}</h1>
+			<p class="slogan anim-typewriter pb-8">{slogan}</p>
+			<p class="text-3xl">{intro}</p>
+		</section>
 		<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-			<article class="card">
-				<h1>👨🏾‍💻 {author}</h1>
-				<p class="slogan anim-typewriter pb-8">{slogan}</p>
-				<p class="text-3xl">{intro}</p>
-			</article>
 			<Portfolio/>
 		</div>
 		<Skills />
-		<section class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+		<Outro />
+		<section class="grid grid-cols-1 lg:grid-cols-2">
 			<People />
-			<Outro />
 			<Footer />
 		</section>
+		<!-- Latest version with linear easing only -->
+		<script src="https://cdn.jsdelivr.net/npm/scrolltosmooth/dist/scrolltosmooth.min.js"></script>
+		<script>
+			const anchorLinks = document.querySelectorAll("nav a");
+
+			let smoothScroll = new scrollToSmooth(anchorLinks, {
+				targetAttribute: 'href',
+				duration: 2000,
+				offset: 800
+			});
+
+			smoothScroll.init();
+		</script>
 	</body>
 </html>

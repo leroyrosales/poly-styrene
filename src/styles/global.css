@@ -29,7 +29,7 @@ p {
 }
 
 a {
-  @apply text-green-700 font-semibold hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75;
+  @apply text-mid-green font-semibold hover:text-green underline hover:no-underline;
 }
 
 ul {
@@ -41,13 +41,14 @@ ul li {
 }
 
 .card {
-  @apply p-12 border border-2 border-black;
+  @apply p-12 border-2 border-black;
 }
 
 
 .slogan {
   white-space: nowrap;
   overflow: hidden;
+  @apply text-dark-green;
 }
 
 /* Animation */
@@ -63,6 +64,7 @@ ul li {
     width: 100%;
   }
 }
+
 @keyframes blinkTextCursor {
   from {
     border-right-color: rgba(0, 0, 0, 1);

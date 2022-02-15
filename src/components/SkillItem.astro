@@ -3,6 +3,6 @@ const { item } = Astro.props;
 ---
 <li>
     <span class="tooltip">{item.name}</span>
-    <i class={`devicon-${item.icon}-${(item.type?item.type:'plain')}`}></i>
+    <i class={`text-xl devicon-${item.icon}-${(item.type?item.type:'plain')}`}></i>
 </li>
 
