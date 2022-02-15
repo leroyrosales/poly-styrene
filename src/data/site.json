@@ -296,9 +296,7 @@
             {"name": "React", "icon": "react"},
             {"name": "Next.js", "icon": "nextjs"},
             {"name": "Eleventy", "icon": "eleventy"},
-            {"name": "PHP", "icon": "php"},
             {"name": "Node.js", "icon": "nodejs"},
-            {"name": "MySQL", "icon": "mysql"},
             {"name": "Webpack", "icon": "webpack"},
             {"name": "Drupal", "icon": "drupal"}
         ],
