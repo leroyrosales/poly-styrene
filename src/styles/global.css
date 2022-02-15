@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-size: 16px;
-  line-height: 1.6;
-  -webkit-text-size-adjust: unset;
-}
-
 h1, h2, h3, h4 {
   @apply font-extrabold pb-4;
 }

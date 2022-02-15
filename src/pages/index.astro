@@ -16,7 +16,9 @@ const slogan = `I'm just a nerd that likes ${randomLike}.`;
 
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>{ title } - { description }</title>
 		<style global>
@@ -30,7 +32,7 @@ const slogan = `I'm just a nerd that likes ${randomLike}.`;
 		<section class="py-24 px-12 border-2 border-black">
 			<h1>👨🏾‍💻 {author}</h1>
 			<p class="slogan anim-typewriter pb-8">{slogan}</p>
-			<p class="text-3xl">{intro}</p>
+			<p class="text-3xl max-w-prose">{intro}</p>
 		</section>
 		<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
 			<Portfolio/>
@@ -42,14 +44,15 @@ const slogan = `I'm just a nerd that likes ${randomLike}.`;
 			<Footer />
 		</section>
 		<!-- Latest version with linear easing only -->
-		<script src="https://cdn.jsdelivr.net/npm/scrolltosmooth/dist/scrolltosmooth.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/scrolltosmooth/dist/scrolltosmooth.pkgd.min.js"></script>
 		<script>
 			const anchorLinks = document.querySelectorAll("nav a");
 
 			let smoothScroll = new scrollToSmooth(anchorLinks, {
 				targetAttribute: 'href',
 				duration: 2000,
-				offset: 800
+				offset: 200,
+				easing: easeInQuad,
 			});
 
 			smoothScroll.init();
