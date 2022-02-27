@@ -7,15 +7,10 @@ const options = {
     delay: 30
 };
 
-const items = [
-	['https://sindresorhus.com', 'sindresorhus'],
-	['https://github.com', 'github']
-];
-
 const work = [
     [
-        "https://www.neumos.com/",
-        "neumos"
+        "https://5e62651c3e94f3a9ac1706cd--nifty-mestorf-c2ddb0.netlify.app/",
+        "utatsxsw2020"
     ],
 ]
 
