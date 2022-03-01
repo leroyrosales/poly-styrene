@@ -8,6 +8,13 @@
     "email": "leroyrosales@gmail.com",
     "work": [
         {
+            "title": "East: Sun Rise AR",
+            "description": "Next.js, Netlify",
+            "webp": "eastsunrise-thumb.webp",
+            "jpg": "eastsunrise-thumb.jpg",
+            "link": "https://eastsunrise.org/"
+        },
+        {
             "title": "UT at SXSW 2020",
             "description": "Jekyll, Bootstrap 4, Netlify",
             "webp": "",
@@ -265,13 +272,6 @@
             "webp": "asherblaircomm-thumb.webp",
             "jpg": "asherblaircomm-thumb.jpg",
             "link": "https://asher-blair.com/"
-        },
-        {
-            "title": "East: Sun Rise AR",
-            "description": "Next.js, Netlify",
-            "webp": "eastsunrise-thumb.webp",
-            "jpg": "eastsunrise-thumb.jpg",
-            "link": "https://eastside-ar.netlify.app/"
         },
         {
             "title": "UT News",
