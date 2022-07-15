@@ -1,3 +1,4 @@
+import preact from '@astrojs/preact';
 // Full Astro Configuration API Documentation:
 // https://docs.astro.build/reference/configuration-reference
 
@@ -9,5 +10,9 @@
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ ({
 	// Enable the Preact renderer to support Preact JSX components.
-	renderers: ['@astrojs/renderer-preact'],
+	integrations: [
+		preact(),
+	]
 });
+
+
