@@ -67,3 +67,12 @@ ul li {
     border-right-color: transparent;
   }
 }
+
+.devicon-devicon-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-devicon-plain path {
+  fill: #4691f6;
+}
