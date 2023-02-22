@@ -12,6 +12,8 @@ const { author, title, description, intro, likes } = site;
 const randomLike = likes[Math.floor(Math.random()*likes.length)].toLowerCase();
 const slogan = `I'm just a nerd that likes punk.`;
 
+import '../styles/devicon.min.css';
+
 ---
 
 <html lang="en">
@@ -23,9 +25,6 @@ const slogan = `I'm just a nerd that likes punk.`;
 		<title>{ title } - { description }</title>
 		<style is:global>
 			@import "../styles/global.css";
-		</style>
-		<style>
-			@import "../styles/devicon.min.css";
 		</style>
 	</head>
 
@@ -39,12 +38,12 @@ const slogan = `I'm just a nerd that likes punk.`;
 			<p class="slogan anim-typewriter pb-8">{slogan}</p>
 			<p class="text-3xl max-w-prose">{intro}</p>
 		</section>
-		<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+		<main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
 			<Portfolio/>
-		</div>
+		</main>
 		<Skills />
 		<Outro />
-		<section class="grid grid-cols-1 lg:grid-cols-2">
+		<section class="grid grid-cols-1 md:grid-cols-2">
 			<People />
 			<Footer />
 		</section>
