@@ -1,19 +1,17 @@
 import captureWebsite from 'capture-website';
+import site from "./src/data/site.json" assert { type: "json" };
 
 const options = {
-	width: 1200,
-	height: 900,
-    time: 99,
+	width: 1280,
+	height: 800,
+    timeout: 99,
     delay: 30
 };
 
-const work = [
-    [
-        "https://eastsunrise.org/",
-        "eastsunrise"
-    ],
-]
+let importedSites = site.work;
 
-await Promise.all(work.map(([url, filename]) => {
-	return captureWebsite.file(url, `${filename}-thumb.jpg`, options);
-}));
+setTimeout( async () => {
+    importedSites.forEach( site => {
+        captureWebsite.file(site.link, `${site.title.toLowerCase().replace(" ", "-")}-thumb.jpg`, options);
+    });
+}, 1000 );

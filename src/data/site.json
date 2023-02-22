@@ -10,29 +10,29 @@
         {
             "title": "East: Sun Rise AR",
             "description": "Next.js, Netlify",
-            "webp": "eastsunrise-thumb.webp",
-            "jpg": "eastsunrise-thumb.jpg",
+            "webp": "east-sun-rise-ar-thumb.webp",
+            "jpg": "east-sun-rise-ar-thumb.jpg",
             "link": "https://eastsunrise.org/"
         },
         {
             "title": "UT at SXSW 2020",
             "description": "Jekyll, Bootstrap 4, Netlify",
             "webp": "",
-            "jpg": "utatsxsw2020-thumb.jpg",
+            "jpg": "ut-at-sxsw-2020-thumb.jpg",
             "link": "https://5e62651c3e94f3a9ac1706cd--nifty-mestorf-c2ddb0.netlify.app/"
         },
         {
             "title": "J. Celeste Lay",
             "description": "WordPress, Genesis",
-            "webp": "celeste-thumb.webp",
-            "jpg": "celeste-thumb.jpg",
+            "webp": "j-celeste-lay-thumb.webp",
+            "jpg": "j-celeste-lay-thumb.jpg",
             "link": "https://jcelestelay.com/"
         },
         {
             "title": "Amity Worrel",
             "description": "WordPress, Webpack, Twig in WordPress, Bootstrap 5",
-            "webp": "amityworrel-thumb.webp",
-            "jpg": "amityworrel-thumb.jpg",
+            "webp": "amity-worrel-thumb.webp",
+            "jpg": "amity-worrel-thumb.jpg",
             "link": "https://amityworrel.com/"
         },
         {
@@ -45,22 +45,22 @@
         {
             "title": "Innealta Capital",
             "description": "WordPress, Genesis",
-            "webp": "innealtacapital-thumb.webp",
-            "jpg": "innealtacapital-thumb.jpg",
+            "webp": "innealta-capital-thumb.webp",
+            "jpg": "innealta-capital-thumb.jpg",
             "link": "https://www.innealtacapital.com/"
         },
         {
             "title": "National Academy of Construction",
             "description": "WordPress, S2 member, Genesis",
-            "webp": "naocon-thumb.webp",
-            "jpg": "naocon-thumb.jpg",
+            "webp": "national-academy-of-construction-thumb.webp",
+            "jpg": "national-academy-of-construction-thumb.jpg",
             "link": "https://www.naocon.org/"
         },
         {
             "title": "Sacred Rest Stop",
             "description": "WordPress",
-            "webp": "sacredrest-thumb.webp",
-            "jpg": "sacredrest-thumb.jpg",
+            "webp": "sacred-rest-stop-thumb.webp",
+            "jpg": "sacred-rest-stop-thumb.jpg",
             "link": "https://sacredreststop.org/"
         },
         {
@@ -73,8 +73,8 @@
         {
             "title": "Taller de Harrington",
             "description": "WordPress, TailwindCSS, Twig in WordPress, Webpack, WooCommerce",
-            "webp": "tallerharrington-thumb.webp",
-            "jpg": "tallerharrington-thumb.jpg",
+            "webp": "taller-de-harrington-thumb.webp",
+            "jpg": "taller-de-harrington-thumb.jpg",
             "link": "https://tallerdeharrington.art/"
         },
         {
@@ -87,8 +87,8 @@
         {
             "title": "Division of Diversity and Community Engagement",
             "description": "WordPress, Bootstrap 4, Twig in WordPress, Gulp",
-            "webp": "ddce-thumb.webp",
-            "jpg": "ddce-thumb.jpg",
+            "webp": "division-of-diversity-and-community engagement-thumb.webp",
+            "jpg": "division-of-diversity-and-community engagement-thumb.jpg",
             "link": "https://diversity.utexas.edu/"
         },
         {
@@ -96,62 +96,62 @@
             "description": "WordPress",
             "webp": "womenwork-thumb.webp",
             "jpg": "womenwork-thumb.jpg",
-            "link": "womenandtheirwork.org"
+            "link": "https://womenandtheirwork.org"
         },
         {
             "title": "Sara June",
             "description": "WordPress",
-            "webp": "sarajune-thumb.webp",
-            "jpg": "sarajune-thumb.jpg",
+            "webp": "sara-june-thumb.webp",
+            "jpg": "sara-june-thumb.jpg",
             "link": "https://sarajunebk.com/"
         },
         {
             "title": "Austin Books Arts Center",
             "description": "WordPress",
-            "webp": "atxbookarts-thumb.webp",
-            "jpg": "atxbookarts-thumb.jpg",
+            "webp": "austin-books-arts-center-thumb.webp",
+            "jpg": "austin-books-arts-center-thumb.jpg",
             "link": "https://atxbookarts.org/"
         },
         {
             "title": "Unquiet Things",
             "description": "WordPress, Webpack, Bootstrap 4",
-            "webp": "unquietthings-thumb.webp",
-            "jpg": "unquietthings-thumb.jpg",
+            "webp": "unquiet-things-thumb.webp",
+            "jpg": "unquiet-things-thumb.jpg",
             "link": "https://unquietthings.com/"
         },
         {
             "title": "Colin McIntyre",
             "description": "WordPress",
-            "webp": "colinmcintyre-thumb.webp",
-            "jpg": "colinmcintyre-thumb.jpg",
+            "webp": "colin-mcintyre-thumb.webp",
+            "jpg": "colin-mcintyre-thumb.jpg",
             "link": "https://sculptureforge.com/"
         },
         {
             "title": "First-Generation Longhorns",
             "description": "Jekyll, Bootstrap 4",
-            "webp": "firstgenlonghorns-thumb.webp",
-            "jpg": "firstgenlonghorns-thumb.jpg",
+            "webp": "first-generation-longhorns-thumb.webp",
+            "jpg": "first-generation-longhorns-thumb.jpg",
             "link": "https://firstgeneration.utexas.edu/"
         },
         {
             "title": "Office of the President",
             "description": "Drupal 7, Foundation",
-            "webp": "ootpresident-thumb.webp",
-            "jpg": "ootpresident-thumb.jpg",
+            "webp": "office-of-the-president-thumb.webp",
+            "jpg": "office-of-the-president-thumb.jpg",
             "link": "https://president.utexas.edu/"
         },
         {
             "title": "Every Minute Stronger",
             "description": "WordPress, Twig in WordPress",
-            "webp": "everyminute-thumb.webp",
-            "jpg": "everyminute-thumb.jpg",
+            "webp": "every-minute-stronger-thumb.webp",
+            "jpg": "every-minute-stronger-thumb.jpg",
             "link": "https://everyminutestronger.com/"
         },
         {
             "title": "Chamberlain McHaney",
             "description": "WordPress, Twig in Wordpress, Webpack, Bootstrap 5",
-            "webp": "chamberlainmchaney-thumb.webp",
-            "jpg": "chamberlainmchaney-thumb.jpg",
+            "webp": "chamberlain-mchaney-thumb.webp",
+            "jpg": "chamberlain-mchaney-thumb.jpg",
             "link": "https://www.chamberlainmchaney.com/"
         },
         {
@@ -164,23 +164,23 @@
         {
             "title": "Perry Sommers",
             "description": "Pom-Chi, Netlify",
-            "webp": "perrysommers-thumb.webp",
-            "jpg": "perrysommers-thumb.jpg",
+            "webp": "perry-sommers-thumb.webp",
+            "jpg": "perry-sommers-thumb.jpg",
             "link": "https://perrysommers.net/"
         },
         {
             "title": "Ardor Wood Farm",
             "description": "WordPress",
-            "webp": "ardorfarm-thumb.webp",
-            "jpg": "ardorfarm-thumb.jpg",
+            "webp": "ardor-wood-farm-thumb.webp",
+            "jpg": "ardor-wood-farm-thumb.jpg",
             "link": "https://ardorwoodfarm.com/"
         },
         {
             "title": "Asociación Internacional de Hispanistas",
             "description": "WordPress, Gulp, Genesis",
-            "webp": "aidh-thumb.webp",
-            "jpg": "aidh-thumb.jpg",
-            "link": "asociacioninternacionaldehispanistas.org"
+            "webp": "asociación-internacional-de-hispanistas-thumb.webp",
+            "jpg": "asociación-internacional-de-hispanistas-thumb.jpg",
+            "link": "https://asociacioninternacionaldehispanistas.org"
         },
         {
             "title": "43QUAI",
@@ -192,92 +192,92 @@
         {
             "title": "Blue Rock Repair",
             "description": "HTML, Bootstrap 4, Netlify",
-            "webp": "bluerockrepair-thumb.webp",
-            "jpg": "bluerockrepair-thumb.jpg",
+            "webp": "blue-rock-repair-thumb.webp",
+            "jpg": "blue-rock-repair-thumb.jpg",
             "link": "https://bluerockrepair.com/"
         },
         {
             "title": "Rachel and Tad",
             "description": "Pom-Chi, Netlify",
-            "webp": "racheltad-thumb.webp",
-            "jpg": "racheltad-thumb.jpg",
+            "webp": "rachel-and-tad-thumb.webp",
+            "jpg": "rachel-and-tad-thumb.jpg",
             "link": "https://rachelandtad.netlify.app/"
         },
         {
             "title": "Communication Awards UT Austin",
             "description": "Eleventy, Bootstrap 4, Netlify",
-            "webp": "commawards-thumb.webp",
-            "jpg": "commawards-thumb.jpg",
+            "webp": "communication-awards-ut-austin-thumb.webp",
+            "jpg": "communication-awards-ut-austin-thumb.jpg",
             "link": "https://5f43d10364e2fc0007cd8868--ut-communication-awards.netlify.app/submissions-list/"
         },
         {
             "title": "UT Tower",
             "description": "WordPress, Genesis",
-            "webp": "uttower-thumb.webp",
-            "jpg": "uttower-thumb.jpg",
+            "webp": "ut-tower-thumb.webp",
+            "jpg": "ut-tower-thumb.jpg",
             "link": "https://tower.utexas.edu/"
         },
         {
             "title": "In The Garden Farm",
             "description": "WordPress",
-            "webp": "inthegarden-thumb.webp",
-            "jpg": "inthegarden-thumb.jpg",
+            "webp": "in-the garden-farm-thumb.webp",
+            "jpg": "in-the garden-farm-thumb.jpg",
             "link": "https://inthegardenfarm.org/"
         },
         {
             "title": "Need Abortion",
             "description": "WordPress",
-            "webp": "needabortion-thumb.webp",
-            "jpg": "needabortion-thumb.jpg",
+            "webp": "need-abortion-thumb.webp",
+            "jpg": "need-abortion-thumb.jpg",
             "link": "https://needabortion.org/"
         },
         {
             "title": "Repro Power",
             "description": "WordPress",
-            "webp": "repropower-thumb.webp",
-            "jpg": "repropower-thumb.jpg",
-            "link": "repropowertx.org"
+            "webp": "repro-power-thumb.webp",
+            "jpg": "repro-power-thumb.jpg",
+            "link": "http://repropowertx.org"
         },
         {
             "title": "Rosie's Law",
             "description": "WordPress",
-            "webp": "rosieslaw-thumb.webp",
-            "jpg": "rosieslaw-thumb.jpg",
+            "webp": "rosies-law-thumb.webp",
+            "jpg": "rosies-law-thumb.jpg",
             "link": "https://rosieslaw.org/"
         },
         {
             "title": "Nova Hair Collective",
             "description": "WordPress",
-            "webp": "novahair-thumb.webp",
-            "jpg": "novahair-thumb.jpg",
+            "webp": "nova-hair-collective-thumb.webp",
+            "jpg": "nova-hair-collective-thumb.jpg",
             "link": "https://www.novahaircollective.com/"
         },
         {
             "title": "TEXAS Impact",
             "description": "WordPress, Bootstrap 4, Highcharts, Twig in WordPress",
-            "webp": "tximpact-thumb.webp",
-            "jpg": "tximpact-thumb.jpg",
+            "webp": "texas-impact-thumb.webp",
+            "jpg": "texas-impact-thumb.jpg",
             "link": "https://impact.utexas.edu/"
         },
         {
             "title": "R Builders LLC",
             "description": "WordPress",
-            "webp": "rbuildersllc-thumb.webp",
-            "jpg": "rbuildersllc-thumb.jpg",
+            "webp": "r-builders-llc-thumb.webp",
+            "jpg": "r-builders-llc-thumb.jpg",
             "link": "https://rbuildersllc.com/"
         },
         {
             "title": "Asher Blair Communications",
             "description": "WordPress, Bootstrap 5, Twig in WordPress",
-            "webp": "asherblaircomm-thumb.webp",
-            "jpg": "asherblaircomm-thumb.jpg",
+            "webp": "asher-blair-communications-thumb.webp",
+            "jpg": "asher-blair-communications-thumb.jpg",
             "link": "https://asher-blair.com/"
         },
         {
             "title": "UT News",
             "description": "WordPress, Bootstrap 4, Twig in WordPress",
-            "webp": "utnews-thumb.webp",
-            "jpg": "utnews-thumb.jpg",
+            "webp": "ut-news-thumb.webp",
+            "jpg": "ut-news-thumb.jpg",
             "link": "https://news.utexas.edu/"
         }
     ],
