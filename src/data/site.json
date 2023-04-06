@@ -321,6 +321,7 @@
             {"name": "Accessibility", "icon": "accessibility"}
         ],
         "comfortable": [
+            {"name": "Craft CMS", "icon": ""},
             {"name": "React", "icon": "react"},
             {"name": "Next.js", "icon": "nextjs"},
             {"name": "Eleventy", "icon": "eleventy"},
