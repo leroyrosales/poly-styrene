@@ -8,27 +8,6 @@
     "email": "leroyrosales@gmail.com",
     "work": [
         {
-            "title": "Mon Health Marion",
-            "description": "WordPress, Bootstrap 5, Twig in WordPress, custom framework",
-            "webp": "",
-            "jpg": "monhealthmarion.jpg",
-            "link": "https://www.monhealthmarion.com/"
-        },
-        {
-            "title": "Ascension Wisconsin Hospital",
-            "description": "WordPress, Bootstrap 5, Twig in WordPress, custom framework",
-            "webp": "",
-            "jpg": "ascension-wisconsin.jpg",
-            "link": "https://ascensionwisconsinhospital.org/"
-        },
-        {
-            "title": "Baptist Neighborhood Hospital",
-            "description": "WordPress, Bootstrap 5, Twig in WordPress, custom framework",
-            "webp": "",
-            "jpg": "baptist-neighborhood.jpg",
-            "link": "https://www.baptistneighborhoodhospital.com/"
-        },
-        {
             "title": "East: Sun Rise AR",
             "description": "Next.js, Netlify",
             "webp": "",
