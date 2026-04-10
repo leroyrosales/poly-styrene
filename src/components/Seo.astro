@@ -1,0 +1,53 @@
+---
+export interface Props {
+	title: string;
+	description: string;
+	canonicalPath: string;
+	siteUrl: string;
+	siteName?: string;
+	author?: string;
+	image?: string;
+	ogType?: 'website' | 'article';
+	noindex?: boolean;
+}
+
+const {
+	title,
+	description,
+	canonicalPath,
+	siteUrl,
+	siteName = 'Leroy Rosales',
+	author,
+	image,
+	ogType = 'website',
+	noindex = false,
+} = Astro.props;
+
+const base = siteUrl.replace(/\/$/, '');
+const path =
+	canonicalPath === '' || canonicalPath === '/'
+		? ''
+		: canonicalPath.startsWith('/')
+			? canonicalPath
+			: `/${canonicalPath}`;
+const canonicalUrl = `${base}${path || '/'}`;
+const absoluteImage =
+	image &&
+	(image.startsWith('http') ? image : `${base}${image.startsWith('/') ? image : `/${image}`}`);
+---
+
+<meta name="description" content={description} />
+{author && <meta name="author" content={author} />}
+<link rel="canonical" href={canonicalUrl} />
+<meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content={siteName} />
+{absoluteImage && <meta property="og:image" content={absoluteImage} />}
+<meta name="twitter:card" content={absoluteImage ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+{absoluteImage && <meta name="twitter:image" content={absoluteImage} />}

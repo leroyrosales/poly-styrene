@@ -5,12 +5,30 @@ import People from '../components/People.astro';
 import Outro from '../components/Outro.astro';
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
+import Seo from "../components/Seo.astro";
 
 import site from "../data/site.json";
-const { author, title, description, intro, likes } = site;
+const { author, title, intro, likes, url, metaDescription, socials } = site;
 
 const randomLike = likes[Math.floor(Math.random()*likes.length)].toLowerCase();
 const slogan = `I'm just a nerd that likes punk.`;
+
+const baseUrl = url.replace(/\/$/, '');
+const personLd = {
+	'@context': 'https://schema.org',
+	'@type': 'Person',
+	name: author,
+	url: `${baseUrl}/`,
+	jobTitle: 'Full Stack Developer',
+	description: metaDescription,
+	address: {
+		'@type': 'PostalAddress',
+		addressLocality: 'Austin',
+		addressRegion: 'TX',
+		addressCountry: 'US',
+	},
+	sameAs: socials.map((s: { link: string }) => s.link),
+};
 
 import '../styles/devicon.min.css';
 
@@ -22,7 +40,15 @@ import '../styles/devicon.min.css';
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-		<title>{ title } - { description }</title>
+		<title>{title}</title>
+		<Seo
+			title={title}
+			description={metaDescription}
+			canonicalPath="/"
+			siteUrl={url}
+			author={author}
+		/>
+		<script type="application/ld+json" set:html={JSON.stringify(personLd)} />
 		<style is:global>
 			@import "../styles/global.css";
 		</style>

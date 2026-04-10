@@ -1,8 +1,10 @@
 ---
-
+import Seo from "../components/Seo.astro";
 import site from "../data/site.json";
-const { author, title, description, intro, likes } = site;
 
+const { url, author } = site;
+const pageTitle = "Halloween 2022 | Leroy Rosales";
+const pageDescription = "Seasonal Halloween page — Leroy Rosales.";
 ---
 
 <html lang="en">
@@ -11,7 +13,14 @@ const { author, title, description, intro, likes } = site;
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-		<title>{ title } - Halloween 2022</title>
+		<title>{pageTitle}</title>
+		<Seo
+			title={pageTitle}
+			description={pageDescription}
+			canonicalPath="/halloween-2022"
+			siteUrl={url}
+			author={author}
+		/>
 		<style is:global>
             @import "../styles/global.css";
    .eye {

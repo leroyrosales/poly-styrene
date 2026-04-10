@@ -1,0 +1,41 @@
+---
+import Seo from "../components/Seo.astro";
+import site from "../data/site.json";
+
+const { url, author } = site;
+const pageTitle = "Resources | Leroy Rosales";
+const pageDescription =
+	"Curated web development resources and links, updated periodically.";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<title>{pageTitle}</title>
+		<Seo
+			title={pageTitle}
+			description={pageDescription}
+			canonicalPath="/resources"
+			siteUrl={url}
+			author={author}
+		/>
+		<style is:global>
+			@import "../styles/global.css";
+		</style>
+	</head>
+
+	<body>
+		<main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+			<h1>A handy list of resources I'll update periodically.</h1>
+            <section>
+                <h2>Cool collections</h2>
+                <article>
+                    <h3>Hispanic Hackers</h3>
+                    
+            </section>
+		</main>
+	</body>
+</html>
