@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import '../styles/devicon.min.css';
 import Portfolio from "../components/Portfolio.astro";
+import FunExperiments from "../components/FunExperiments.astro";
 import Skills from '../components/Skills.astro';
 import People from '../components/People.astro';
 import Outro from '../components/Outro.astro';
@@ -65,7 +66,8 @@ const personLd = {
 			<p class="text-3xl max-w-prose">{intro}</p>
 		</section>
 		<main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-			<Portfolio/>
+			<Portfolio />
+			<FunExperiments />
 		</main>
 		<Skills />
 		<Outro />

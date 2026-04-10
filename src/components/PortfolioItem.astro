@@ -5,9 +5,15 @@ const { item } = Astro.props;
     <div class="portfolio-item--text">
         <h2>{item.title}</h2>
         <figure class="pb-2">
-            <picture>
-                <img width="600" height="450" loading="lazy" class="w-full border border-black" src={`/assets/sites/${item.jpg}`} alt={`Screenshot of ${item.title}`} />
-            </picture>
+            {item.jpg ? (
+                <picture>
+                    <img width="600" height="450" loading="lazy" class="w-full border border-black" src={`/assets/sites/${item.jpg}`} alt={`Screenshot of ${item.title}`} />
+                </picture>
+            ) : (
+                <div class="flex aspect-[4/3] w-full items-center justify-center border border-black bg-gray-200 px-4 text-center font-heading text-xl text-black/70" aria-hidden="true">
+                    {item.title}
+                </div>
+            )}
         </figure>
             {item.description ?
                 <p class="italic mb-4">{item.description}</p>

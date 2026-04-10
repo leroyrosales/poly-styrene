@@ -14,8 +14,13 @@
 }
 
 @layer base {
-	*,
 	html {
+		scroll-behavior: smooth !important;
+		/* Fixed navbar (py-4 + link line); keeps #skills, #fun-experiments, #personal in view */
+		scroll-padding-top: 4rem;
+	}
+
+	* {
 		scroll-behavior: smooth !important;
 	}
 

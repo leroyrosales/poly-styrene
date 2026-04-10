@@ -282,6 +282,23 @@
             "link": "https://news.utexas.edu/"
         }
     ],
+    "funExperiments": [
+        {
+            "title": "Weird TX",
+            "description": "Interactive statewide map and listings for quirky Texas landmarks, museums, and events.",
+            "link": "https://weirdtx.com/"
+        },
+        {
+            "title": "Cumbia & Coding",
+            "description": "Curated dev and design resources in a static, no-JS layout—bookmark shrine with personality.",
+            "link": "https://cumbiaandcoding.com/"
+        },
+        {
+            "title": "HALF-O-WEEN TV",
+            "description": "Seasonal microsite with a retro TV-inspired interface—creative front-end experiment.",
+            "link": "https://half-o-ween.com/"
+        }
+    ],
     "skills": {
         "proficient": [
             {"name": "WordPress", "icon": "wordpress"},
