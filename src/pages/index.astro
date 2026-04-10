@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+import '../styles/devicon.min.css';
 import Portfolio from "../components/Portfolio.astro";
 import Skills from '../components/Skills.astro';
 import People from '../components/People.astro';
@@ -6,12 +8,11 @@ import Outro from '../components/Outro.astro';
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import Seo from "../components/Seo.astro";
-
 import site from "../data/site.json";
 const { author, title, intro, likes, url, metaDescription, socials } = site;
 
-const randomLike = likes[Math.floor(Math.random()*likes.length)].toLowerCase();
-const slogan = `I'm just a nerd that likes punk.`;
+const randomLike = likes[Math.floor(Math.random() * likes.length)].toLowerCase();
+const slogan = `I'm just a nerd that likes ${randomLike}.`;
 
 const baseUrl = url.replace(/\/$/, '');
 const personLd = {
@@ -27,10 +28,8 @@ const personLd = {
 		addressRegion: 'TX',
 		addressCountry: 'US',
 	},
-	sameAs: socials.map((s: { link: string }) => s.link),
+	sameAs: socials.map((s) => s.link),
 };
-
-import '../styles/devicon.min.css';
 
 ---
 
@@ -48,10 +47,11 @@ import '../styles/devicon.min.css';
 			siteUrl={url}
 			author={author}
 		/>
-		<script type="application/ld+json" set:html={JSON.stringify(personLd)} />
-		<style is:global>
-			@import "../styles/global.css";
-		</style>
+		<script
+			type="application/ld+json"
+			is:inline
+			set:html={JSON.stringify(personLd)}
+		/>
 	</head>
 
 	<body>

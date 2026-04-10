@@ -1,14 +1,12 @@
-// Full Astro Configuration API Documentation:
-// https://docs.astro.build/reference/configuration-reference
+import sitemap from '@astrojs/sitemap';
+import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from 'astro/config';
 
-// @type-check enabled!
-// VSCode and other TypeScript-enabled text editors will provide auto-completion,
-// helpful tooltips, and warnings if your exported object is invalid.
-// You can disable this by removing "@ts-check" and `@type` comments below.
-import preact from '@astrojs/preact';
-
-// @ts-check
-export default /** @type {import('astro').AstroUserConfig} */ ({
+// https://astro.build/config
+export default defineConfig({
 	site: 'https://leroyrosales.com',
-	integrations: [preact()],
+	integrations: [sitemap()],
+	vite: {
+		plugins: [tailwindcss()],
+	},
 });

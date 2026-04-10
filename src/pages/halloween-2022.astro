@@ -1,4 +1,5 @@
 ---
+import '../styles/global.css';
 import Seo from "../components/Seo.astro";
 import site from "../data/site.json";
 
@@ -22,7 +23,6 @@ const pageDescription = "Seasonal Halloween page — Leroy Rosales.";
 			author={author}
 		/>
 		<style is:global>
-            @import "../styles/global.css";
    .eye {
       display: flex;
       width: 48px;
@@ -89,19 +89,22 @@ const pageDescription = "Seasonal Halloween page — Leroy Rosales.";
         </div>
 
 
-        <script>
+        <script is:inline>
             const container = document.querySelector(".container");
+            if (!container) return;
             container.addEventListener("mousemove", (e) => {
             const eyes = document.querySelectorAll(".eye");
-            [].forEach.call(eyes, function (eye) {
-                let mouseX = eye.getBoundingClientRect().right;
-                if (eye.classList.contains("eye-left")) {
-                mouseX = eye.getBoundingClientRect().left;
+            const ev = /** @type {MouseEvent} */ (e);
+            eyes.forEach((eye) => {
+                const el = /** @type {HTMLElement} */ (eye);
+                let mouseX = el.getBoundingClientRect().right;
+                if (el.classList.contains("eye-left")) {
+                mouseX = el.getBoundingClientRect().left;
                 }
-                let mouseY = eye.getBoundingClientRect().top;
-                let radianDegrees = Math.atan2(e.pageX - mouseX, e.pageY - mouseY);
+                let mouseY = el.getBoundingClientRect().top;
+                let radianDegrees = Math.atan2(ev.pageX - mouseX, ev.pageY - mouseY);
                 let rotationDegrees = radianDegrees * (180 / Math.PI) * -1 + 180;
-                eye.style.transform = `rotate(${rotationDegrees}deg)`;
+                el.style.transform = `rotate(${rotationDegrees}deg)`;
             });
             });
         </script>

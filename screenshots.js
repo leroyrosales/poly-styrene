@@ -1,17 +1,26 @@
+import { readFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import captureWebsite from 'capture-website';
-import site from "./src/data/site.json" assert { type: "json" };
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const site = JSON.parse(readFileSync(join(__dirname, 'src/data/site.json'), 'utf8'));
 
 const options = {
 	width: 1280,
 	height: 800,
-    timeout: 99,
-    delay: 30
+	timeout: 99,
+	delay: 30,
 };
 
-let importedSites = site.work;
+const importedSites = site.work;
 
-setTimeout( async () => {
-    importedSites.forEach( site => {
-        captureWebsite.file(site.link, `${site.title.toLowerCase().replace(" ", "-")}-thumb.jpg`, options);
-    });
-}, 1000 );
+setTimeout(async () => {
+	importedSites.forEach((entry) => {
+		captureWebsite.file(
+			entry.link,
+			`${entry.title.toLowerCase().replace(' ', '-')}-thumb.jpg`,
+			options,
+		);
+	});
+}, 1000);

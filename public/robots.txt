@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://leroyrosales.com/sitemap.xml
+Sitemap: https://leroyrosales.com/sitemap-index.xml

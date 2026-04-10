@@ -1,82 +1,94 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-*, html {
-  scroll-behavior: smooth !important;
+@theme {
+	--color-black: #020202;
+	--color-dark-green: #0d2818;
+	--color-mid-green: #04471c;
+	--color-green: #058c42;
+	--color-light-green: #16db65;
+	--color-white: #ecf0f1;
 }
 
-h1, h2, h3, h4 {
-  @apply font-extrabold pb-4;
-}
+@layer base {
+	*,
+	html {
+		scroll-behavior: smooth !important;
+	}
 
-h1 {
-  @apply text-5xl;
-}
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply font-extrabold pb-4;
+	}
 
-h2 {
-  @apply text-3xl;
-}
+	h1 {
+		@apply text-5xl;
+	}
 
-h3 {
-  @apply text-2xl;
-}
+	h2 {
+		@apply text-3xl;
+	}
 
-p {
-  @apply text-lg;
-}
+	h3 {
+		@apply text-2xl;
+	}
 
-a {
-  @apply text-mid-green font-semibold hover:text-green underline hover:no-underline;
-}
+	p {
+		@apply text-lg;
+	}
 
-ul {
-  @apply list-disc pl-2;
-}
+	a {
+		@apply text-mid-green font-semibold hover:text-green underline hover:no-underline;
+	}
 
-ul li {
-  @apply text-xl pb-2;
+	ul {
+		@apply list-disc pl-2;
+	}
+
+	ul li {
+		@apply text-xl pb-2;
+	}
 }
 
 .card {
-  @apply p-12 border-2 border-black;
+	@apply p-12 border-2 border-black;
 }
-
 
 .slogan {
-  white-space: nowrap;
-  overflow: hidden;
-  @apply text-dark-green;
+	white-space: nowrap;
+	overflow: hidden;
+	@apply text-dark-green;
 }
 
-/* Animation */
 .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+	animation:
+		typewriter 4s steps(44) 1s 1 normal both,
+		blinkTextCursor 500ms steps(44) infinite normal;
 }
+
 @keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
 }
 
 @keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(0, 0, 0, 1);
-  }
-  to {
-    border-right-color: transparent;
-  }
+	from {
+		border-right-color: rgba(0, 0, 0, 1);
+	}
+	to {
+		border-right-color: transparent;
+	}
 }
 
 .devicon-devicon-plain {
-  max-width: 2em;
+	max-width: 2em;
 }
 
-/* if you want to change the original color */
 .devicon-devicon-plain path {
-  fill: #4691f6;
+	fill: #4691f6;
 }

@@ -1,4 +1,5 @@
 ---
+import '../styles/global.css';
 import Seo from "../components/Seo.astro";
 import site from "../data/site.json";
 
@@ -22,9 +23,6 @@ const pageDescription =
 			siteUrl={url}
 			author={author}
 		/>
-		<style is:global>
-            @import "../styles/global.css";
-		</style>
 	</head>
 
 	<body class="bg-black">
