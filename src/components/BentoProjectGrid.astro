@@ -1,0 +1,43 @@
+---
+import BentoProjectCard from "./BentoProjectCard.astro";
+
+type Item = {
+	title: string;
+	description?: string;
+	link?: string;
+	jpg?: string;
+};
+
+interface Props {
+	items: Item[];
+	sectionTitle: string;
+	sectionId: string;
+	intro?: string;
+	category: string;
+	/** Thick top rule when stacked below another bento block */
+	showTopSeparator?: boolean;
+}
+
+const { items, sectionTitle, sectionId, intro, category, showTopSeparator } = Astro.props;
+---
+
+<section
+	class:list={["bg-[#f4f4f4]", showTopSeparator && "border-t-2 border-black"]}
+>
+	<header class="border-b border-zinc-300 px-8 py-12 md:px-14 md:py-14">
+		<h2
+			id={sectionId}
+			class="bento-section-title font-heading text-4xl font-extrabold tracking-tight text-black md:text-5xl mb-2 pb-0"
+		>
+			{sectionTitle}
+		</h2>
+		{intro ? <p class="max-w-prose text-lg leading-relaxed text-zinc-600 md:text-xl">{intro}</p> : null}
+	</header>
+	<div class="bento-grid grid grid-cols-1 border-l border-t border-zinc-300 md:grid-cols-12">
+		{
+			items.map((item, i) => (
+				<BentoProjectCard item={item} index={i} total={items.length} category={category} />
+			))
+		}
+	</div>
+</section>

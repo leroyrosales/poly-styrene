@@ -1,18 +1,15 @@
 ---
-import PortfolioItem from "./PortfolioItem.astro";
+import BentoProjectGrid from "./BentoProjectGrid.astro";
 import site from "../data/site.json";
 
 const { funExperiments } = site;
 ---
 
-<div class="contents">
-	<article class="card col-span-full">
-		<h2 id="fun-experiments">Fun Experiments</h2>
-		<p class="mb-0 max-w-prose text-lg">
-			A showcase of fun ideas, random passion projects, and other interests I have outside of doing great work.
-		</p>
-	</article>
-	{funExperiments.map((item) => (
-		<PortfolioItem item={item} />
-	))}
-</div>
+<BentoProjectGrid
+	items={funExperiments}
+	sectionTitle="Fun experiments"
+	sectionId="fun-experiments"
+	intro="Passion projects and fun maps, great resources, and front-end experiments outside of client work."
+	category="EXPERIMENT"
+	showTopSeparator
+/>

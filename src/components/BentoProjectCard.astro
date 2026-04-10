@@ -1,0 +1,99 @@
+---
+import { getBentoSpan } from "../lib/bentoSpans";
+
+type Item = {
+	title: string;
+	description?: string;
+	link?: string;
+	jpg?: string;
+};
+
+interface Props {
+	item: Item;
+	index: number;
+	total: number;
+	category: string;
+}
+
+const { item, index, total, category } = Astro.props;
+const span = getBentoSpan(index, total);
+const label = `${String(index + 1).padStart(2, "0")} / ${category}`;
+
+function parseTags(description: string | undefined): { tags: string[]; body: string } {
+	if (!description?.trim()) {
+		return { tags: [], body: "" };
+	}
+	const parts = description.split(",").map((s) => s.trim()).filter(Boolean);
+	const allShort = parts.length >= 2 && parts.every((p) => p.length <= 32);
+	if (allShort) {
+		return { tags: parts, body: "" };
+	}
+	return { tags: [], body: description };
+}
+
+const { tags, body } = parseTags(item.description);
+---
+
+<article
+	class:list={[
+		"bento-card relative flex flex-col border-r border-b border-zinc-300 bg-[#f4f4f4] p-8 md:p-10 lg:p-12",
+		"col-span-12",
+		span === 3 && "md:col-span-3",
+		span === 4 && "md:col-span-4",
+		span === 6 && "md:col-span-6",
+		span === 8 && "md:col-span-8",
+		span === 12 && "md:col-span-12",
+	]}
+>
+	<div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+		<p class="font-heading text-xs font-semibold tracking-[0.2em] text-zinc-500 uppercase">
+			{label}
+		</p>
+		{
+			item.link &&
+				
+					<a
+						class="bento-link font-heading text-xs font-bold tracking-[0.15em] text-mid-green no-underline uppercase transition-colors hover:text-green inline-flex shrink-0 items-center justify-center border border-zinc-300 bg-white text-mid-green no-underline transition-colors hover:border-mid-green hover:bg-mid-green/5 p-2"
+						href={item.link}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Live view
+					</a>
+				
+		}
+	</div>
+
+	{
+		item.jpg ? (
+			<figure class="mb-6 border border-zinc-300 bg-zinc-100">
+				<img
+					width={600}
+					height={338}
+					loading="lazy"
+					class="aspect-video w-full object-cover"
+					src={`/assets/sites/${item.jpg}`}
+					alt={`Screenshot of ${item.title}`}
+				/>
+			</figure>
+		) : null
+	}
+
+	<h3 class="bento-title mb-4 text-2xl leading-[1.05] tracking-wide text-balance text-black uppercase sm:text-3xl lg:text-4xl">
+		{item.title}
+	</h3>
+
+	{
+		body ? (
+			<p class="mb-6 text-base leading-relaxed text-zinc-600 lg:text-lg">{body}</p>
+		) : null
+	}
+
+	{
+		tags.length > 0 ? (
+			<p class="mt-auto font-heading text-xs font-semibold tracking-wide text-zinc-700 uppercase">
+				{tags.join(", ")}
+			</p>
+		) : null
+	}
+</article>

@@ -1,14 +1,14 @@
 ---
-import PortfolioItem from "./PortfolioItem.astro";
-
+import BentoProjectGrid from "./BentoProjectGrid.astro";
 import site from "../data/site.json";
-const { work } = site;
 
+const { work } = site;
 ---
 
-{work.map((item) => (
-    <PortfolioItem item={item} />
-))}
-
-
-
+<BentoProjectGrid
+	items={work}
+	sectionTitle="Client work"
+	sectionId="portfolio"
+	intro="Select builds from teams I’ve worked with, CMS theming, accessible front-ends, and ongoing care for campaigns and org sites."
+	category="CLIENT WORK"
+/>
